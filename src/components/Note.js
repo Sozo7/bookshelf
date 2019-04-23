@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import "../css/Note.css";
 
-const GENERIC_NOTE_TITLE = "New Note Title",
-  GENERIC_NOTE_BODY = "New Note Body";
+const GENERIC_NOTE_TITLE = "Book Title",
+  GENERIC_NOTE_BODY = "Authur, Year";
+ 
 
 class Note extends Component {
   // eslint-disable-next-line no-useless-constructor

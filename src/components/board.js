@@ -35,6 +35,12 @@ class Board extends Component {
     return (
       <div>
         <div className="div-board">
+        <button
+              className="btn btn-success add-button"
+              onClick={this.addNote.bind(this)}
+            >
+              Add Book
+            </button>
           <div className="row">
             {this.state.notes.map(note => {
               return (
@@ -47,12 +53,7 @@ class Board extends Component {
             })}
           </div>
           <div>
-            <button
-              className="btn btn-success add-button"
-              onClick={this.addNote.bind(this)}
-            >
-              Add
-            </button>
+            
           </div>
         </div>
       </div>
