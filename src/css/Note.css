@@ -1,3 +1,19 @@
 .card-view {
     margin: 8px 0;
 }
+.checkbox {
+    margin-left: 18px ;
+ }
+ .card-body {
+    background-image: url("book.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px 180px;
+    
+ }
+.extraDiv{
+    text-align: end;
+    margin-right: 20px;
+ }
+ .btn {
+     margin-left: 10px;
+ }

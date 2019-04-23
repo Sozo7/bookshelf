@@ -34,10 +34,11 @@ class Board extends Component {
   render() {
     return (
       <div>
-        <div className="div-board">
+        <div className="container">
         <button
               className="btn btn-success add-button"
-              onClick={this.addNote.bind(this)}
+              onClick={
+                  this.addNote.bind(this)}
             >
               Add Book
             </button>
@@ -57,7 +58,10 @@ class Board extends Component {
           </div>
         </div>
       </div>
+      
     );
   }
 }
+
+
 export default Board;

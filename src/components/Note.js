@@ -55,7 +55,7 @@ class Note extends Component {
         />
       );
       buttonArea = (
-        <div>
+        <div className="col-sm-4">
           <button className="btn btn-info" onClick={this.handleSave.bind(this)}>
             Save
           </button>
@@ -67,17 +67,18 @@ class Note extends Component {
       buttonArea = (
         <div>
           <button
-            className="btn btn-warning"
+            className="btn btn-warning buttonButton"
             onClick={this.handleEdit.bind(this)}
           >
             Edit
           </button>
           <button
-            className="btn btn-danger"
+            className="btn btn-danger buttonButton"
             onClick={this.handleDelete.bind(this)}
           >
             Delete
           </button>
+         
         </div>
       );
     }
@@ -86,8 +87,11 @@ class Note extends Component {
       <div className="col-sm-4">
         <div className="card card-view">
           <div className="card-body">
+          <div className="extraDiv">
             {titleElement}
             {bodyElement}
+            <input className="checkbox" type="checkbox" value="Read"/> Read
+            </div>
             {buttonArea}
           </div>
         </div>
