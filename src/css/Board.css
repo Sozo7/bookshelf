@@ -6,6 +6,10 @@
 .add {
     margin: 1rem 15px 0;
 }
+.add-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .container {
     background-image: url("bookshelf.jpg")
 }
