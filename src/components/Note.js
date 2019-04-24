@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "../css/Note.css";
 
 const GENERIC_NOTE_TITLE = "Book Title",
-  GENERIC_NOTE_BODY = "Authur, Year";
+  GENERIC_NOTE_BODY = "Author, Year";
  
 
 class Note extends Component {
@@ -73,7 +73,7 @@ class Note extends Component {
             Edit
           </button>
           <button
-            className="btn btn-danger buttonButton"
+            className="btn btn-danger buttonButton      "
             onClick={this.handleDelete.bind(this)}
           >
             Delete
