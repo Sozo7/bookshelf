@@ -3,7 +3,8 @@ import PropTypes from "prop-types";
 import "../css/Note.css";
 
 const GENERIC_NOTE_TITLE = "Book Title",
-  GENERIC_NOTE_BODY = "Author, Year";
+  GENERIC_NOTE_BODY = "Author, Year",
+  GENERIC_NOTE_GENRE = "Genre";
  
 
 class Note extends Component {
@@ -15,6 +16,7 @@ class Note extends Component {
     this.state = {
       title: GENERIC_NOTE_TITLE,
       body: GENERIC_NOTE_BODY,
+      genre: GENERIC_NOTE_GENRE,
       editMode: false
     };
   }
@@ -29,6 +31,7 @@ class Note extends Component {
     this.setState({
       title: this.refs.titleContent.value,
       body: this.refs.bodyContent.value,
+      genre: this.refs.genreContent.value,
       editMode: false
     });
   }
@@ -38,7 +41,7 @@ class Note extends Component {
   }
 
   render() {
-    let titleElement, bodyElement, buttonArea;
+    let titleElement, bodyElement, genreElement, buttonArea;
     if (this.state.editMode) {
       titleElement = (
         <textarea
@@ -54,6 +57,13 @@ class Note extends Component {
           defaultValue={this.state.body}
         />
       );
+      genreElement = (
+        <textarea
+          ref="genreContent"
+          className="genre-textarea"
+          defaultValue={this.state.body}
+        />
+      );
       buttonArea = (
         <div className="col-sm-4">
           <button className="btn btn-info" onClick={this.handleSave.bind(this)}>
@@ -64,6 +74,7 @@ class Note extends Component {
     } else {
       titleElement = <h5>{this.state.title}</h5>;
       bodyElement = <p>{this.state.body}</p>;
+      genreElement = <p> {this.state.genre}</p>
       buttonArea = (
         <div>
           <button
@@ -90,6 +101,7 @@ class Note extends Component {
           <div className="extraDiv">
             {titleElement}
             {bodyElement}
+            {genreElement}
             <input className="checkbox" type="checkbox" value="Read"/> Read
             </div>
             {buttonArea}
