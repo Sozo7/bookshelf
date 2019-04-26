@@ -2,16 +2,16 @@
     margin: 1rem 15px 0;
     border: solid #f7f7f9
 }
+body {
+    background-image: url("https://images.unsplash.com/photo-1510148199876-8a856ee41d42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
 
+}
 .add {
     margin: 1rem 15px 0;
 }
 .add-button {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-.container {
-    background-image: url("bookshelf.jpg")
 }
 .navbars {
     background-image: red;
