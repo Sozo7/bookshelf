@@ -40,16 +40,20 @@ class Board extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
-        <Navigation />
-          <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-            <Route component={Error} />
-          </Switch>
-      </BrowserRouter> 
+        
         <div className="container">
+        <div className="navbar">
+          <BrowserRouter>
+            <Navigation>
+              <Switch>
+                <Route path="/" component={Home} exact />
+                <Route path="/about" component={About} />
+                <Route path="/top20books" component={Contact} />
+                <Route component={Error} />
+              </Switch>
+            </Navigation>
+          </BrowserRouter>
+        </div>
           <button
             className="btn btn-success add-button"
             onClick={this.addNote.bind(this)}

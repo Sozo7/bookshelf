@@ -7,13 +7,24 @@
  .card-body {
     background-image: url("book.jpg");
     background-repeat: no-repeat;
-    background-size: 350px 230px;
-    
+    background-size: 360px 230px;
  }
+
 .extraDiv{
     text-align: end;
     margin-right: 20px;
  }
+
  .btn {
      margin-left: 10px;
+ }
+
+ .navbar {
+    background-color: rgb(2, 2, 36);
+    width: 100%;
+ }
+
+ .container {
+     padding-left: 0px;
+     padding-right: 0px;
  }

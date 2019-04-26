@@ -1,5 +1,5 @@
 import React from 'react';
 
-const About = () => <div>About</div>
+const About = () => <a href="https://urlzs.com/FcTX"></a>
 
 export default About
