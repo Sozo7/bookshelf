@@ -1,6 +1,6 @@
 # Bookshelf Retrospective #
 
->#### "Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward >organizational objectives. It is the fuel that allows common people to attain uncommon results." --Andrew Carnegie ####
+>#### "Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results." --Andrew Carnegie ####
 
 My personal thoughts on the the group project are fairly positive. I feel like we could have achieved more if we were more collaborative in our efforts to plan, discuss, implement and execute our given tasks.  Although the project required our group to come together, we were not given a directive on how those tasks should be worked on by the indivuals within our group.  I feel in cases like these we should of over communicated. Our group communication was poor.
 
